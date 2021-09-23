@@ -34,3 +34,4 @@ basic
 # 스프링으로 전환
  - 스프링 컨테이너는 @Cofiguration이 붙은 AppConfig를 설정 정보로 사용
  - @Bean이라 적힌 메서드를 모두 호출해서 반환된 객체를 스프링 컨테이너에 등록한다
+ - @ComponentScan과 @Autowired를 이용한 의존관계 자동 주입
